@@ -1,5 +1,17 @@
-.wae {
-  padding-top: 20px;
+body {
+  background-color: #226764;
+  color: #4a4a4a;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+h1 {
+  font-family: Menlo, Consolas, DejaVu Sans Mono, monospace;
+  color: white;
+}
+p {
+  font-family: 'Anonymous Pro', monospace;
+  font-weight: 600;
 }
 .container p {
   font-size: 15px;
@@ -32,7 +44,7 @@
     top: 2000px;
   }
 }
-@media only screen and (min-width: 1000px) {
+/* @media only screen and (min-width: 1000px) {
   iframe {
     position: relative;
     top: -500px;
@@ -52,8 +64,8 @@
     top: -1px;
     right: -120px;
   }
-}
-@media only screen and (max-width: 1024px) {
+} */
+/* @media only screen and (max-width: 1024px) {
   .discord {
     position: relative;
     top: -1px;
@@ -66,6 +78,32 @@
     top: -1px;
     right: 90px;
   }
+} */
+@media only screen and (max-width: 1024) {
+  img.devdeck {
+    position: relative;
+    top: 1000px;
+  }
+}
+.navbar-title-devdeck {
+  font-size: 40px;
+  padding-top: 15px;
+  font-family: 'Anonymous Pro', monospace;
+  font-weight: 300;
+}
+.span.repo-language-dot.html{
+  background-color: #3572A5;
+}
+.span.repo-language-dot {
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+  top: 1px;
+  display: inline-block;
+  position: relative;
+}
+.fa fa-code-branch {
+  margin-left: 19.2px;
 }
 
 /* form.login-form {

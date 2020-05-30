@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous"/>
     <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-      crossorigin="anonymous"
-    />
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
+    integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd"
+    crossorigin="anonymous">
+
+    <link
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+
+    <!-- Static files -->
     <link rel="stylesheet" href="static/style.css" type="text/css">
-    <title>Base</title>
+    <link rel="stylesheet" href="static/master.css" type="text/css">
+    <title>Home</title>
   </head>
   <body>
     <br />
@@ -30,7 +45,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand">Devdeck</a>
+            <a href="file:///C:/Users/Hailemichael/Downloads/devdeck-netlify/home/home.html" class="navbar-title-devdeck navbar-brand"<>Devdeck</a>
           </div>
               </li>
             </ul>
@@ -38,6 +53,18 @@
               <li class="active">
               </li>
 
+              <li>
+                <a class="fa fa-github fa-lg" href="https://github.com/Phoenix537"> GitHub</a>
+              </li>
+              <li>
+                <a class="fa fa-youtube fa-lg" href="https://www.youtube.com/channel/UCvga5CIi8IUZkuv_400Va4g"> YouTube</a>
+              </li>
+              <a href="https://discord.gg/6JmhYy4">
+              <img style="max-height:3.30rem"src="https://pythondiscord.com/static/images/navbar/navbar_discordjoin.svg" />
+              </a>
+              <!-- <li>
+                <a class="fa fa-discord fa-lg" href="https://discord.gg/6JmhYy4"> Discord</a>
+              </li> -->
 
             </ul>
           </div>
@@ -46,7 +73,48 @@
         <!-- /.container-fluid -->
       </nav>
     </div>
+    <div class="container">
+
+    <div class="wae">
+    <h1 style="padding-top:60px; font-size: 48px;">Who Are We?</h1>
+    <p style="padding-top:46px; color: black; font-size: 17.5px">
+      We are a community focused around open source softwares, web-dev,<br />
+      programming, and concepts alike. We believed everyone can learn<br />
+      coding, if they have the mindset and are dedicated to learn.<br />
+    </p>
+    <p style="padding-top: 16px; color: black; font-size: 17.5px">
+      Whether you're veteran or a beginner in the world of programming<br />
+      you'll find our server a great source of help and inspriation.<br />
+      With over 20 members and growing we have experts Helpers available.<br />
+    </p>
+    </div>
+
+    <h1 style="padding-top:77px; font-size: 48px;" >Projects</h1>
+
+          <div style="padding-top: 60px;"class="column is-one-third-desktop is-half-tablet">
+            <div  style="display:inline-block;"class="card has-equal-height github-card">
+              <div style="padding: 1.5rem;box-sizing:inherit;display:inline-block; margin-right: 0px;"class="card-content">
+                <div class="repo-headline">
+                  <i class="fa fa-github fa-lg"></i>
+                  <a href="https://github.com/Phoenix537/Devdeck-netlify"> <strong>Phoenix537/Devdeck-netlify</strong></a>
+                </div>
+                <div>
+                  Our website hosted on netlify
+                  <br><br>
+                </span><span class="repo-language-dot html"></span> HTML
+                  <!-- <span id="repo-footer-item"><i class="fa fa-star"></i> 0</span>
+                  <span id="repo-footer-item"><i class="fa fa-code-branch"></i> 1</span> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+    <!-- <img class="devdeck" style="width:440px; height:440px;position:relative; top:-550px; left:660px;"src="img/devdeck.png" /> -->
 
 
+    </div>
+  </div>
+
+  </div>
   </body>
 </html>
