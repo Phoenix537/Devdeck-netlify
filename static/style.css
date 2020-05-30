@@ -1,0 +1,81 @@
+.wae {
+  padding-top: 20px;
+}
+.container p {
+  font-size: 15px;
+}
+/* iframe {
+  position: relative;
+  right: -23px;
+  top: -510px;
+} */
+.discord {
+  position: relative;
+  top: -1068px;
+  right: -468px;
+}
+.rules-h1 {
+  padding-top: 13px;
+}
+.rules-blockquote {
+  padding: 5px;
+}
+.rules-blockquote li {
+  padding-top: 13px;
+}
+.rules-li {
+  font-size: 15px;
+}
+@media only screen and (min-width: 500px) {
+  iframe {
+    position: relative;
+    top: 2000px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  iframe {
+    position: relative;
+    top: -500px;
+    right: -25px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  iframe {
+    position: relative;
+    top: -1px;
+    right: -120px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  iframe {
+    position: relative;
+    top: -1px;
+    right: -120px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .discord {
+    position: relative;
+    top: -1px;
+    right: 90px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .discord {
+    position: relative;
+    top: -1px;
+    right: 90px;
+  }
+}
+
+/* form.login-form {
+  margin-right: 370px;
+  background-color: white;
+  border: solid 1px black;
+  padding: 70px;
+  position: relative;
+  top: 10px;
+}
+form.login-form h1 {
+  padding-bottom: 40px;
+} */
